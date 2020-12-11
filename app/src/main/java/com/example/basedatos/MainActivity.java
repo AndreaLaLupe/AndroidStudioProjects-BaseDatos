@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         btnGuardarDatos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ejecutarServicio("http://192.168.1.9/DatosContadores/Guardar.php");
+                ejecutarServicio("http://-IP-/DatosContadores/Guardar.php");
             }
         });
 
